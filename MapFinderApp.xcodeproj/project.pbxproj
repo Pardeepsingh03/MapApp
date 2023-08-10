@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		00C970062A84BD9500FA1266 /* MapFinderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970052A84BD9500FA1266 /* MapFinderAppApp.swift */; };
 		00C970082A84BD9500FA1266 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970072A84BD9500FA1266 /* ContentView.swift */; };
-		00C9700A2A84BD9800FA1266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C970092A84BD9800FA1266 /* Assets.xcassets */; };
 		00C9700D2A84BD9800FA1266 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C9700C2A84BD9800FA1266 /* Preview Assets.xcassets */; };
 		00C970172A84BD9800FA1266 /* MapFinderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970162A84BD9800FA1266 /* MapFinderAppTests.swift */; };
 		00C970212A84BD9800FA1266 /* MapFinderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970202A84BD9800FA1266 /* MapFinderAppUITests.swift */; };
 		00C970232A84BD9800FA1266 /* MapFinderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970222A84BD9800FA1266 /* MapFinderAppUITestsLaunchTests.swift */; };
+		00C970302A84BE5C00FA1266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C9702F2A84BE5C00FA1266 /* Assets.xcassets */; };
+		00C970362A84BF2700FA1266 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970352A84BF2600FA1266 /* LocationModel.swift */; };
+		00C970392A84C08000FA1266 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970382A84C08000FA1266 /* LocationsDataService.swift */; };
+		00C9703B2A84C28200FA1266 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9703A2A84C28200FA1266 /* LocationsView.swift */; };
+		00C9703D2A84C59300FA1266 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9703C2A84C59300FA1266 /* LocationsViewModel.swift */; };
+		00C9703F2A84EBAB00FA1266 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9703E2A84EBAB00FA1266 /* PlacesView.swift */; };
+		00C970422A84FA2700FA1266 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970412A84FA2700FA1266 /* DetailsView.swift */; };
+		00C970442A850AB100FA1266 /* PinMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970432A850AB100FA1266 /* PinMarkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +44,20 @@
 		00C970022A84BD9500FA1266 /* MapFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C970052A84BD9500FA1266 /* MapFinderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFinderAppApp.swift; sourceTree = "<group>"; };
 		00C970072A84BD9500FA1266 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00C970092A84BD9800FA1266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C9700C2A84BD9800FA1266 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00C970122A84BD9800FA1266 /* MapFinderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapFinderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C970162A84BD9800FA1266 /* MapFinderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFinderAppTests.swift; sourceTree = "<group>"; };
 		00C9701C2A84BD9800FA1266 /* MapFinderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapFinderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C970202A84BD9800FA1266 /* MapFinderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFinderAppUITests.swift; sourceTree = "<group>"; };
 		00C970222A84BD9800FA1266 /* MapFinderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFinderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00C9702F2A84BE5C00FA1266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00C970352A84BF2600FA1266 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		00C970382A84C08000FA1266 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		00C9703A2A84C28200FA1266 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		00C9703C2A84C59300FA1266 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		00C9703E2A84EBAB00FA1266 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		00C970412A84FA2700FA1266 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		00C970432A850AB100FA1266 /* PinMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinMarkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +108,13 @@
 		00C970042A84BD9500FA1266 /* MapFinderApp */ = {
 			isa = PBXGroup;
 			children = (
+				00C970372A84C06C00FA1266 /* DataServices */,
+				00C970342A84BF0E00FA1266 /* View */,
+				00C970322A84BEEF00FA1266 /* ViewModel */,
+				00C970312A84BEE500FA1266 /* Models */,
 				00C970052A84BD9500FA1266 /* MapFinderAppApp.swift */,
 				00C970072A84BD9500FA1266 /* ContentView.swift */,
-				00C970092A84BD9800FA1266 /* Assets.xcassets */,
+				00C9702F2A84BE5C00FA1266 /* Assets.xcassets */,
 				00C9700B2A84BD9800FA1266 /* Preview Content */,
 			);
 			path = MapFinderApp;
@@ -125,6 +143,41 @@
 				00C970222A84BD9800FA1266 /* MapFinderAppUITestsLaunchTests.swift */,
 			);
 			path = MapFinderAppUITests;
+			sourceTree = "<group>";
+		};
+		00C970312A84BEE500FA1266 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00C970352A84BF2600FA1266 /* LocationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00C970322A84BEEF00FA1266 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00C9703C2A84C59300FA1266 /* LocationsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00C970342A84BF0E00FA1266 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00C9703A2A84C28200FA1266 /* LocationsView.swift */,
+				00C9703E2A84EBAB00FA1266 /* PlacesView.swift */,
+				00C970412A84FA2700FA1266 /* DetailsView.swift */,
+				00C970432A850AB100FA1266 /* PinMarkView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00C970372A84C06C00FA1266 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				00C970382A84C08000FA1266 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C970302A84BE5C00FA1266 /* Assets.xcassets in Resources */,
 				00C9700D2A84BD9800FA1266 /* Preview Assets.xcassets in Resources */,
-				00C9700A2A84BD9800FA1266 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C970442A850AB100FA1266 /* PinMarkView.swift in Sources */,
+				00C970392A84C08000FA1266 /* LocationsDataService.swift in Sources */,
+				00C9703D2A84C59300FA1266 /* LocationsViewModel.swift in Sources */,
 				00C970082A84BD9500FA1266 /* ContentView.swift in Sources */,
+				00C9703F2A84EBAB00FA1266 /* PlacesView.swift in Sources */,
+				00C9703B2A84C28200FA1266 /* LocationsView.swift in Sources */,
+				00C970422A84FA2700FA1266 /* DetailsView.swift in Sources */,
+				00C970362A84BF2700FA1266 /* LocationModel.swift in Sources */,
 				00C970062A84BD9500FA1266 /* MapFinderAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
