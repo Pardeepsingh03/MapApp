@@ -48,6 +48,7 @@ struct DetailsView: View {
                               
                                     
                                     Button {
+                                        vm.showLocation = locations
                                         
                                     } label: {
                                         Text("Explore more ")
@@ -72,6 +73,9 @@ struct DetailsView: View {
         .padding()
         .padding(.bottom,20)
         .shadow(radius: 10)
+        .sheet(item: $vm.showLocation) { location in
+            CityInformationView(imageList: location)
+        }
     }
 }
 

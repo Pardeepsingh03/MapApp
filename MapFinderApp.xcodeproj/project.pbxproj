@@ -21,6 +21,7 @@
 		00C9703F2A84EBAB00FA1266 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9703E2A84EBAB00FA1266 /* PlacesView.swift */; };
 		00C970422A84FA2700FA1266 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970412A84FA2700FA1266 /* DetailsView.swift */; };
 		00C970442A850AB100FA1266 /* PinMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970432A850AB100FA1266 /* PinMarkView.swift */; };
+		00C970462A85117000FA1266 /* CityInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C970452A85117000FA1266 /* CityInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		00C9703E2A84EBAB00FA1266 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
 		00C970412A84FA2700FA1266 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		00C970432A850AB100FA1266 /* PinMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinMarkView.swift; sourceTree = "<group>"; };
+		00C970452A85117000FA1266 /* CityInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				00C9703E2A84EBAB00FA1266 /* PlacesView.swift */,
 				00C970412A84FA2700FA1266 /* DetailsView.swift */,
 				00C970432A850AB100FA1266 /* PinMarkView.swift */,
+				00C970452A85117000FA1266 /* CityInformationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				00C9703B2A84C28200FA1266 /* LocationsView.swift in Sources */,
 				00C970422A84FA2700FA1266 /* DetailsView.swift in Sources */,
 				00C970362A84BF2700FA1266 /* LocationModel.swift in Sources */,
+				00C970462A85117000FA1266 /* CityInformationView.swift in Sources */,
 				00C970062A84BD9500FA1266 /* MapFinderAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

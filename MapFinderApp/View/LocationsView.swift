@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct LocationsView: View {
+    @State private var showDetails: Bool = false
     @EnvironmentObject private var vm: LocationsViewModel
     @State private var showList: Bool = false
     var body: some View {
@@ -60,12 +61,11 @@ struct LocationsView: View {
                                 .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
                         }
                     }
-                  
-                        
                 }
-               
             }
         }
+        
+        
     }
 }
 
@@ -73,7 +73,6 @@ struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
         LocationsView()
             .environmentObject(LocationsViewModel())
-        
     }
 }
 
